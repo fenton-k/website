@@ -7,6 +7,11 @@ function App() {
 
   return (
       <>
+
+          <h1>Fenton Krupp</h1>
+          <p className="read-the-docs">
+              web designer, writer, and IT professional
+          </p>
           <div>
               <a href="https://vitejs.dev" target="_blank">
               </a>
@@ -14,9 +19,8 @@ function App() {
                   <img src={reactLogo} className="logo react" alt="React logo"/>
               </a>
           </div>
-          <h1>Fenton Krupp</h1>
-          <p className="read-the-docs">
-              web designer, writer, and IT professional
+          <p>
+              {"want to connect? send me a note ---> hello@fentonk.com"}
           </p>
       </>
   )
